@@ -1,0 +1,39 @@
+{
+  "name": "demo-patrones-diseno",
+  "version": "1.0.0",
+  "description": "Demostración interactiva de patrones de diseño: Template Method, Decorator y Factory Method",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "run": "npm run build && npm start",
+    "dev": "tsx watch src/main.ts",
+    "demo": "bash demo.sh"
+  },
+  "keywords": [
+    "patterns",
+    "design-patterns",
+    "typescript",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/figlet": "^1.7.0",
+    "@types/inquirer": "^9.0.9",
+    "@types/node": "^22.10.5",
+    "@types/readline-sync": "^1.4.6",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.3.0",
+    "figlet": "^1.11.0",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^9.3.8",
+    "ora": "^9.3.0",
+    "readline-sync": "^1.4.10"
+  }
+}
